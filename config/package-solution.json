@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "possibilities-client-side-solution",
+    "id": "98cdc35b-5e1c-46d1-87ba-6af809d39d48",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/possibilities.sppkg"
+  }
+}

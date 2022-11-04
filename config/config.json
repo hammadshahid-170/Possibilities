@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "possibilities-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/possibilities/PossibilitiesWebPart.js",
+          "manifest": "./src/webparts/possibilities/PossibilitiesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PossibilitiesWebPartStrings": "lib/webparts/possibilities/loc/{locale}.js"
+  }
+}
